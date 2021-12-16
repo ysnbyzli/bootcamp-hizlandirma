@@ -1,0 +1,30 @@
+/* add css module styles here (optional) */
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+}
+
+.primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.dashed {
+  border: 1px dashed gray;
+  background-color: white;
+}
+
+.default {
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.text {
+  background-color: transparent;
+}
+
+.link {
+  background-color: transparent;
+  color: #3498db;
+}
