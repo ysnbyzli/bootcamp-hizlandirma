@@ -35,6 +35,16 @@
 
 - _Note App_ için [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/redux/note-app)
 
+<a href="https://nodejs.org/en/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="node" width="30" height="30"/> </a>
+
+- _Ödev 1 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/01)
+- _Ödev 2 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/02)
+- _Ödev 3 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/03)
+- _Ödev 4 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/04)
+- _Ödev 5 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/05)
+- _Ödev 6 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/node/06)
+- _Clean Blog için_ [tıklayınız](https://github.com/yasinbyzli/Clean-Blog)
+
 <a href="https://graphql.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphQL" width="30" height="30"/> </a>
 
-- Ödev 1 için [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/graphql/01)
+- _Ödev 1 için_ [tıklayınız](https://github.com/ysnbyzli/bootcamp-hizlandirma/tree/main/graphql/01)
