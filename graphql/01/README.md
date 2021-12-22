@@ -45,90 +45,38 @@ Günün sonunda aşağıdaki Query'ler çalışır vaziyette olmalıdır.
 
 ```
 
-## Query'ler
+# Ödev 2
+
+Bu ödevde göreviniz, tüm tiplerle alakalı oluşturma, güncelleme, silme ve tümünü silme Mutation'larını hazırlamak olacak.
+
+## Gereksinimler
+
+- [x] Yeni bir User ekleyecek Mutation yazılmalıdır.
+- [x] Bir User'ı güncelleyecek olan Mutation yazılmalıdır.
+- [x] Bir User'ı silecek olan Mutation yazılmalıdır.
+- [x] Tüm User'ları silecek olan Mutation yazılmalıdır.
+- [x] Yukarıdaki maddeler Event, Location ve Participant için de uygulanmalıdır.
+
+Günün sonunda aşağıdaki Mutation'lar çalışır vaziyette olmalıdır.
 
 ```
-query getAllUser {
-  users {
-    id
-    username
-    email
-    events {
-      id
-      title
-      desc
-    }
-  }
-}
+  mutation addUser
+  mutation updateUser
+  mutation deleteUser
+  mutation deleteAllUsers
 
-query getAllEvent {
-  events {
-    id
-    title
-    desc
-    date
-    from
-    to
-    location {id name}
-    user {id username}
-    participants {id username}
-  }
-}
+  mutation addEvent
+  mutation updateEvent
+  mutation deleteEvent
+  mutation deleteAllEvents
 
-query getAllLocation {
-  locations {
-    id
-    name
-    desc
-    lat
-    lng
-  }
-}
+  mutation addLocation
+  mutation updateLocation
+  mutation deleteLocation
+  mutation deleteAllLocations
 
-query getAllParticipant {
-  participants {
-    id
-    user_id
-    event_id
-  }
-}
-
-query getUserById {
-  user(id: 3) {
-    id
-    username
-    email
-  }
-}
-
-query getEventById {
-  event(id: 12) {
-    id
-    title
-    desc
-    date
-    from
-    to
-    location_id
-    user_id
-  }
-}
-
-query getLocationById {
-  location(id: 14) {
-    id
-    name
-    desc
-    lat
-    lng
-  }
-}
-
-query getParticipantById {
-  participant(id: 43) {
-    id
-    user_id
-    event_id
-  }
-}
+  mutation addParticipant
+  mutation updateParticipant
+  mutation deleteParticipant
+  mutation deleteAllParticipants
 ```
